@@ -1,6 +1,3 @@
-import students from './applicants.json';
-import jobs from './jobs.json';
-export { students, jobs };
 export const areaLabels = { frontend: 'Frontend', backend: 'Backend', datos: 'Datos', ml: 'Inteligencia artificial', devops: 'DevOps', ux: 'Diseño UX', marketing: 'Marketing', industrial: 'Industrial', qa: 'Calidad', soporte: 'Soporte' };
 export const modalityLabels = { remoto: 'Remoto', hibrido: 'Híbrido', presencial: 'Presencial' };
 export const initials = (name) => name.split(' ').slice(0, 2).map(word => word[0]).join('');

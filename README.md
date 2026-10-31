@@ -1,4 +1,4 @@
-# Jev · Estudiantes y oportunidades
+# MatchJob · Estudiantes y oportunidades
 
 Vistas sencillas en React, creadas a partir de los datos de `Jev testing.zip`.
 
@@ -13,7 +13,7 @@ Vistas sencillas en React, creadas a partir de los datos de `Jev testing.zip`.
 
 ## Alcance
 
-Solo frontend con datos JSON del ZIP original. Sin login, servidor, API, base de datos ni llamadas a modelos. Los cambios viven en el estado de React y se pierden al recargar. No se incluyen las credenciales `.env`, el servidor ni los scripts originales de pruebas.
+Interfaz en React. Estudiantes, oportunidades y guardados viven en un solo archivo, `sqlite.db`, en la raíz del proyecto. La primera vez que arranca el servidor, ese archivo se crea y se llena con los JSON de ejemplo. No hay login, llamadas a modelos ni otra base de datos. No se incluyen las credenciales `.env` ni los scripts originales de pruebas.
 
 El porcentaje es **ilustrativo**, calculado localmente para dar contexto a las vistas: habilidades requeridas (55%), área (25%), modalidad (10%) y disponibilidad (10%). La experiencia se presenta como evidencia textual; no se analiza automáticamente. Carrera, año, ubicación e idiomas se muestran para revisión y no representan elegibilidad validada. La interfaz no realiza postulaciones.
 
@@ -25,6 +25,8 @@ Requiere Node.js 20.19+ o 22.12+ y npm.
 npm install
 npm run dev
 ```
+
+`npm run dev` abre la interfaz y el servidor que lee `sqlite.db`. La afinidad se calcula en el navegador con esos datos.
 
 Compilación disponible si posteriormente se necesita:
 
@@ -39,7 +41,8 @@ Se instalaron dependencias y se abrió la aplicación únicamente para capturar 
 - `src/App.jsx`: navegación y estado compartido.
 - `src/components/`: navegación, tarjetas, modal, iconos y elementos reutilizables.
 - `src/pages/`: oportunidades, estudiantes y matching. Guardados reutiliza oportunidades.
-- `src/data/`: datos de ejemplo originales y cálculo ilustrativo de afinidad.
+- `src/data/`: etiquetas, cálculo ilustrativo de afinidad y JSON usados solo para crear `sqlite.db` la primera vez.
+- `server/index.js`: API local sobre ese único archivo.
 - `src/styles.css`: estilos y adaptación a móvil.
 
 Los textos y datos de estudiantes y vacantes se mantienen tal como se recibieron en el ZIP. No hace falta ningún archivo `.env` para utilizar estas vistas.

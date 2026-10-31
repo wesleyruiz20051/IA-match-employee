@@ -16,7 +16,7 @@ export default function JobCard({ job, student, saved, onSave, onOpen }) {
       <div className="job-type"><span>{areaLabels[job.area]}</span><span className="modality-tag">{modalityLabels[job.modalidad]}</span></div>
       <p className="job-description">{job.descripcion}</p>
       <Tags items={job.skills_requeridos} matched={match.common} />
-      <div className="card-match"><div><span>Conexión con tu perfil</span><Score value={match.score} /></div><div className="affinity-track" aria-hidden="true"><span style={{ width: `${match.score}%` }} /></div></div>
+      <div className="card-match"><div><span>Conexión con tu perfil</span><Score value={match.score} /></div><div className={`affinity-track ${match.score >= 70 ? 'high' : ''}`} aria-hidden="true"><span style={{ width: `${match.score}%` }} /></div></div>
       <div className="job-card-footer"><div className="salary"><strong>${job.salario_mensual_usd}</strong><span> USD / mes</span></div><button className="card-link" onClick={() => onOpen(job)}>Ver oportunidad <Icon name="arrow" size={16} /></button></div>
     </article>
   );

@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { jobs, areaLabels, modalityLabels, getMatch } from '../data';
+import { areaLabels, modalityLabels, getMatch } from '../data';
 import JobCard from '../components/JobCard';
 import OpportunityHero from '../components/OpportunityHero';
 import Icon from '../components/Icon';
 import { PageHeading, Search, EmptyState } from '../components/UI';
 
-export default function Opportunities({ student, savedIds, onSave, onOpen, savedOnly = false }) {
+export default function Opportunities({ student, jobs, savedIds, onSave, onOpen, savedOnly = false }) {
   const [query, setQuery] = useState('');
   const [area, setArea] = useState('');
   const [modality, setModality] = useState('');
@@ -35,7 +35,7 @@ export default function Opportunities({ student, savedIds, onSave, onOpen, saved
           {[['', 'Todas'], ['frontend', 'Frontend'], ['backend', 'Backend'], ['datos', 'Datos'], ['ux', 'Diseño UX'], ['marketing', 'Marketing'], ['ml', 'Inteligencia artificial']].map(([id, label]) => <button key={id} className={`category-chip ${area === id ? 'selected' : ''}`} aria-pressed={area === id} onClick={() => setArea(id)}>{label}</button>)}
         </div>
         <div className="results-heading"><p aria-live="polite"><strong>{filtered.length} oportunidades</strong><span className="muted"> para explorar{hasFilters && ' con estos filtros'}</span></p><div className="result-actions">{hasFilters && <button className="text-button clear-filters" onClick={reset}>Limpiar filtros <Icon name="close" size={13} /></button>}<select aria-label="Ordenar oportunidades" value={sort} onChange={event => setSort(event.target.value)}><option value="match">Mayor afinidad</option><option value="salary">Mayor remuneración</option><option value="name">Nombre del puesto</option></select></div></div>
-        {filtered.length ? <div className="job-grid">{filtered.map(job => <JobCard key={job.id} job={job} student={student} saved={savedIds.includes(job.id)} onSave={onSave} onOpen={onOpen} />)}</div> : <EmptyState title={savedOnly && !savedIds.length ? 'Un lugar para tus próximos pasos' : 'No encontramos oportunidades'} text={savedOnly && !savedIds.length ? 'Toca el marcador de una oportunidad para tenerla siempre a mano durante esta sesión.' : 'Prueba otra búsqueda o cambia los filtros.'} action={hasFilters && <button className="button secondary" onClick={reset}>Limpiar filtros</button>} />}
+        {filtered.length ? <div className="job-grid">{filtered.map(job => <JobCard key={job.id} job={job} student={student} saved={savedIds.includes(job.id)} onSave={onSave} onOpen={onOpen} />)}</div> : <EmptyState title={savedOnly && !savedIds.length ? 'Un lugar para tus próximos pasos' : 'No encontramos oportunidades'} text={savedOnly && !savedIds.length ? 'Toca el marcador de una oportunidad para guardarla en sqlite.db.' : 'Prueba otra búsqueda o cambia los filtros.'} action={hasFilters && <button className="button secondary" onClick={reset}>Limpiar filtros</button>} />}
       </section>
     </>
   );

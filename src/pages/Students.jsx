@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { students, areaLabels } from '../data';
+import { areaLabels } from '../data';
 import { Avatar, Tags, PageHeading, Search, EmptyState } from '../components/UI';
 import Icon from '../components/Icon';
-export default function Students({ onOpen, selectedId, onSelect }) {
+export default function Students({ students, onOpen, selectedId, onSelect }) {
   const [query, setQuery] = useState('');
   const [area, setArea] = useState('');
   const filtered = students.filter(student => (!area || student.area === area) && `${student.nombre} ${student.universidad} ${student.skills.join(' ')} ${student.experiencia}`.toLocaleLowerCase().includes(query.toLocaleLowerCase()));
