@@ -1,0 +1,2684 @@
+[
+  {
+    "id": "app-001",
+    "area": "frontend",
+    "nombre": "Valeria Chamorro",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Masaya",
+    "promedio": 76,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Git",
+      "Vue",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Portafolio con tres SPAs propias, una con mas de 200 usuarios.",
+    "intereses": "Producto y UX de front"
+  },
+  {
+    "id": "app-002",
+    "area": "backend",
+    "nombre": "Silvio Ramirez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "Keiser",
+    "ciudad": "Masaya",
+    "promedio": 78,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Git",
+      "APIs REST",
+      "Node.js",
+      "Java",
+      "SQL",
+      "GraphQL",
+      "Docker"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "API de inventario para el negocio familiar, en produccion.",
+    "intereses": "Backend y rendimiento"
+  },
+  {
+    "id": "app-003",
+    "area": "datos",
+    "nombre": "Luis Fernando Cruz",
+    "carrera": "Ingenieria Industrial",
+    "anio": 5,
+    "universidad": "UCA",
+    "ciudad": "Esteli",
+    "promedio": 77,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Python",
+      "Power BI",
+      "Excel avanzado",
+      "ETL",
+      "Tableau",
+      "Linux",
+      "Docker"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Tableros de ventas para una distribuidora regional.",
+    "intereses": "Datos aplicados a operaciones"
+  },
+  {
+    "id": "app-004",
+    "area": "ml",
+    "nombre": "Bayardo Somarriba",
+    "carrera": "Estadistica",
+    "anio": 4,
+    "universidad": "UAM",
+    "ciudad": "Masaya",
+    "promedio": 83,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "SQL",
+      "MLflow"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "Machine learning, investigacion reproducible"
+  },
+  {
+    "id": "app-005",
+    "area": "devops",
+    "nombre": "Nathalia Urbina",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UNI",
+    "ciudad": "Matagalpa",
+    "promedio": 96,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Redes",
+      "Bash",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Monitoreo"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Migro los servidores de la facultad a contenedores.",
+    "intereses": "Automatizacion de despliegues"
+  },
+  {
+    "id": "app-006",
+    "area": "ux",
+    "nombre": "Maria Jose Cruz",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Matagalpa",
+    "promedio": 78,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Design thinking",
+      "Wireframing",
+      "Figma"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Identidad de marca completa para un emprendimiento.",
+    "intereses": "Investigacion de usuarios"
+  },
+  {
+    "id": "app-007",
+    "area": "marketing",
+    "nombre": "Ernesto Baltodano",
+    "carrera": "Administracion",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Matagalpa",
+    "promedio": 80,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Canva",
+      "Copywriting",
+      "Email marketing",
+      "Fotografia"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Blog personal con trafico organico estable.",
+    "intereses": "Comunidad y redes"
+  },
+  {
+    "id": "app-008",
+    "area": "industrial",
+    "nombre": "Paola Palacios",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 89,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Excel avanzado",
+      "Six Sigma",
+      "Redes",
+      "Docker"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Levantamiento de procesos para una empresa de transporte.",
+    "intereses": "Cadena de suministro"
+  },
+  {
+    "id": "app-009",
+    "area": "qa",
+    "nombre": "Daniela Solis",
+    "carrera": "Ingenieria Industrial",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Masaya",
+    "promedio": 93,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Reporte de bugs"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Reporto bugs en un proyecto open source local.",
+    "intereses": "Procesos de release"
+  },
+  {
+    "id": "app-010",
+    "area": "soporte",
+    "nombre": "Scarleth Ramirez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UAM",
+    "ciudad": "Leon",
+    "promedio": 76,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Atencion al cliente"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Reparacion y mantenimiento de equipos por cuenta propia.",
+    "intereses": "Soporte y atencion, resolucion de problemas"
+  },
+  {
+    "id": "app-011",
+    "area": "frontend",
+    "nombre": "Norman Castro",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 5,
+    "universidad": "UNI",
+    "ciudad": "Matagalpa",
+    "promedio": 93,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "Tailwind"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Mantiene el sitio de una ONG local desde hace un año.",
+    "intereses": "Frontend, accesibilidad, design systems"
+  },
+  {
+    "id": "app-012",
+    "area": "backend",
+    "nombre": "Gabriela Bermudez",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 3,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 68,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Git",
+      "APIs REST",
+      "Redis",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Proyecto de curso con Node y PostgreSQL desplegado en un VPS.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-013",
+    "area": "datos",
+    "nombre": "Hector Baltodano",
+    "carrera": "Matematica",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 81,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Automatizo el reporte mensual de una cooperativa con Python.",
+    "intereses": "Analitica de datos, visualizacion"
+  },
+  {
+    "id": "app-014",
+    "area": "ml",
+    "nombre": "Carlos Rocha",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UNI",
+    "ciudad": "Esteli",
+    "promedio": 78,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Python",
+      "pandas",
+      "scikit-learn"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "Machine learning, investigacion reproducible"
+  },
+  {
+    "id": "app-015",
+    "area": "devops",
+    "nombre": "Kevin Zeledon",
+    "carrera": "Ingenieria en Telecomunicaciones",
+    "anio": 4,
+    "universidad": "UNI",
+    "ciudad": "Managua",
+    "promedio": 74,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Bash",
+      "Redes",
+      "Docker",
+      "Kubernetes"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Monitor del laboratorio de redes, homelab con Proxmox.",
+    "intereses": "Redes y disponibilidad"
+  },
+  {
+    "id": "app-016",
+    "area": "ux",
+    "nombre": "Tatiana Solis",
+    "carrera": "Arquitectura",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Granada",
+    "promedio": 85,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Design thinking",
+      "Wireframing",
+      "Figma",
+      "HTML"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Portafolio con tres redisenos conceptuales de apps locales.",
+    "intereses": "Diseno de producto"
+  },
+  {
+    "id": "app-017",
+    "area": "marketing",
+    "nombre": "Lucia Vanegas",
+    "carrera": "Comunicacion",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Managua",
+    "promedio": 86,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Redes sociales"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Blog personal con trafico organico estable.",
+    "intereses": "Marca personal, contenido"
+  },
+  {
+    "id": "app-018",
+    "area": "industrial",
+    "nombre": "Luis Fernando Palacios",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Leon",
+    "promedio": 98,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Control de calidad",
+      "AutoCAD"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Practica corta en control de calidad de una planta de bebidas.",
+    "intereses": "Mejora continua"
+  },
+  {
+    "id": "app-019",
+    "area": "qa",
+    "nombre": "Sofia Solis",
+    "carrera": "Ingenieria Industrial",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Managua",
+    "promedio": 97,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Reporte de bugs"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Reporto bugs en un proyecto open source local.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-020",
+    "area": "soporte",
+    "nombre": "Jose Luis Guevara",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UAM",
+    "ciudad": "Leon",
+    "promedio": 98,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Ticketing",
+      "Ingles tecnico",
+      "Hardware"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Soporte informal a la red de PCs de su facultad.",
+    "intereses": "Servicio al usuario"
+  },
+  {
+    "id": "app-021",
+    "area": "frontend",
+    "nombre": "Jose Luis Somarriba",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 5,
+    "universidad": "UNAN",
+    "ciudad": "Masaya",
+    "promedio": 76,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Git",
+      "CSS",
+      "JavaScript",
+      "React",
+      "TypeScript"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Portafolio con tres SPAs propias, una con mas de 200 usuarios.",
+    "intereses": "Interfaces y rendimiento web"
+  },
+  {
+    "id": "app-022",
+    "area": "backend",
+    "nombre": "Isabel Cruz",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 2,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 86,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Git",
+      "GraphQL",
+      "JavaScript",
+      "CSS"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "API de inventario para el negocio familiar, en produccion.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-023",
+    "area": "datos",
+    "nombre": "Bayardo Urbina",
+    "carrera": "Estadistica",
+    "anio": 5,
+    "universidad": "UNI",
+    "ciudad": "Masaya",
+    "promedio": 93,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Excel avanzado",
+      "SQL",
+      "Python",
+      "pandas",
+      "Estadistica",
+      "dbt",
+      "React",
+      "Git"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Automatizo el reporte mensual de una cooperativa con Python.",
+    "intereses": "Reportes de negocio y KPIs"
+  },
+  {
+    "id": "app-024",
+    "area": "ml",
+    "nombre": "Isabel Vanegas",
+    "carrera": "Matematica",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Matagalpa",
+    "promedio": 74,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Python",
+      "pandas"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "Machine learning, investigacion reproducible"
+  },
+  {
+    "id": "app-025",
+    "area": "devops",
+    "nombre": "Norman Ramirez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Granada",
+    "promedio": 76,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Docker",
+      "Linux",
+      "AWS",
+      "Kubernetes",
+      "Redes sociales",
+      "Copywriting"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Migro los servidores de la facultad a contenedores.",
+    "intereses": "Infraestructura, automatizacion, seguridad"
+  },
+  {
+    "id": "app-026",
+    "area": "ux",
+    "nombre": "Daniela Urbina",
+    "carrera": "Diseno Grafico",
+    "anio": 2,
+    "universidad": "Keiser",
+    "ciudad": "Managua",
+    "promedio": 81,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "remoto",
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Design thinking",
+      "CSS"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Pruebas de usabilidad para un proyecto de la universidad.",
+    "intereses": "Diseno de producto"
+  },
+  {
+    "id": "app-027",
+    "area": "marketing",
+    "nombre": "Marcos Bermudez",
+    "carrera": "Comunicacion",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Leon",
+    "promedio": 71,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Canva",
+      "Email marketing",
+      "Fotografia",
+      "Control de calidad",
+      "Gestion de proyectos"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Campanas de Meta Ads con presupuesto propio.",
+    "intereses": "Campanas pagadas y metricas"
+  },
+  {
+    "id": "app-028",
+    "area": "industrial",
+    "nombre": "Lucia Talavera",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Granada",
+    "promedio": 89,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Control de calidad"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Proyecto de reduccion de mermas en una panaderia industrial.",
+    "intereses": "Cadena de suministro"
+  },
+  {
+    "id": "app-029",
+    "area": "qa",
+    "nombre": "Marcos Membreño",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UAM",
+    "ciudad": "Matagalpa",
+    "promedio": 68,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Casos de prueba",
+      "Reporte de bugs"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Reporto bugs en un proyecto open source local.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-030",
+    "area": "soporte",
+    "nombre": "Hector Sandoval",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Managua",
+    "promedio": 90,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Ticketing",
+      "Windows",
+      "Ingles tecnico",
+      "Hardware"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Mesa de ayuda en el laboratorio de computo.",
+    "intereses": "Infraestructura de oficina"
+  },
+  {
+    "id": "app-031",
+    "area": "frontend",
+    "nombre": "Daniela Membreño",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Managua",
+    "promedio": 83,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "CSS",
+      "React",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Portafolio con tres SPAs propias, una con mas de 200 usuarios.",
+    "intereses": "Frontend, accesibilidad, design systems"
+  },
+  {
+    "id": "app-032",
+    "area": "backend",
+    "nombre": "Nathalia Baltodano",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 87,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "APIs REST",
+      "Docker",
+      "Redis",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Proyecto de curso con Node y PostgreSQL desplegado en un VPS.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-033",
+    "area": "datos",
+    "nombre": "Isabel Talavera",
+    "carrera": "Estadistica",
+    "anio": 5,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 94,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "pandas",
+      "Estadistica",
+      "Redes sociales",
+      "Copywriting"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Asistente de investigacion limpiando encuestas de campo.",
+    "intereses": "Reportes de negocio y KPIs"
+  },
+  {
+    "id": "app-034",
+    "area": "ml",
+    "nombre": "Daniela Vanegas",
+    "carrera": "Fisica",
+    "anio": 4,
+    "universidad": "UAM",
+    "ciudad": "Matagalpa",
+    "promedio": 74,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Python",
+      "Visualizacion"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "NLP y lenguaje"
+  },
+  {
+    "id": "app-035",
+    "area": "devops",
+    "nombre": "Silvio Mairena",
+    "carrera": "Ingenieria en Telecomunicaciones",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Esteli",
+    "promedio": 81,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Bash",
+      "Linux",
+      "Redes",
+      "Kubernetes"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Practica en el NOC de un ISP local.",
+    "intereses": "Automatizacion de despliegues"
+  },
+  {
+    "id": "app-036",
+    "area": "ux",
+    "nombre": "Paola Espinoza",
+    "carrera": "Comunicacion",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Matagalpa",
+    "promedio": 86,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Design thinking"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Pruebas de usabilidad para un proyecto de la universidad.",
+    "intereses": "UX de productos financieros, ilustracion"
+  },
+  {
+    "id": "app-037",
+    "area": "marketing",
+    "nombre": "Paola Castro",
+    "carrera": "Mercadeo",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Matagalpa",
+    "promedio": 89,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Canva",
+      "Meta Ads",
+      "Fotografia"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Blog personal con trafico organico estable.",
+    "intereses": "Comunidad y redes"
+  },
+  {
+    "id": "app-038",
+    "area": "industrial",
+    "nombre": "Andrea Castro",
+    "carrera": "Ingenieria en Logistica",
+    "anio": 4,
+    "universidad": "UAM",
+    "ciudad": "Esteli",
+    "promedio": 92,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Control de calidad",
+      "Lean",
+      "AutoCAD"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Practica corta en control de calidad de una planta de bebidas.",
+    "intereses": "Procesos, logistica"
+  },
+  {
+    "id": "app-039",
+    "area": "qa",
+    "nombre": "Carlos Cruz",
+    "carrera": "Ingenieria Industrial",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Matagalpa",
+    "promedio": 91,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Reporte de bugs",
+      "Postman",
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Escribio la suite de casos de prueba de un proyecto de curso.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-040",
+    "area": "soporte",
+    "nombre": "Valeria Guevara",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 68,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Atencion al cliente",
+      "Windows"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Reparacion y mantenimiento de equipos por cuenta propia.",
+    "intereses": "Infraestructura de oficina"
+  },
+  {
+    "id": "app-041",
+    "area": "frontend",
+    "nombre": "Roberto Urbina",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Granada",
+    "promedio": 78,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "CSS",
+      "Vue",
+      "React",
+      "HTML",
+      "TypeScript",
+      "JavaScript",
+      "Git",
+      "Next.js"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Mantiene el sitio de una ONG local desde hace un año.",
+    "intereses": "Frontend, accesibilidad, design systems"
+  },
+  {
+    "id": "app-042",
+    "area": "backend",
+    "nombre": "Isabel Urbina",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Granada",
+    "promedio": 73,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Node.js",
+      "SQL",
+      "Redis",
+      "Casos de prueba",
+      "Testing manual"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-043",
+    "area": "datos",
+    "nombre": "Nathalia Ramirez",
+    "carrera": "Estadistica",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Managua",
+    "promedio": 73,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "SQL",
+      "Excel avanzado",
+      "Python",
+      "Estadistica",
+      "Ticketing",
+      "Windows"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Tableros de ventas para una distribuidora regional.",
+    "intereses": "Analitica de datos, visualizacion"
+  },
+  {
+    "id": "app-044",
+    "area": "ml",
+    "nombre": "Fatima Membreño",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Masaya",
+    "promedio": 86,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Estadistica",
+      "Visualizacion"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "Modelos predictivos en salud"
+  },
+  {
+    "id": "app-045",
+    "area": "devops",
+    "nombre": "Ivania Mairena",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UNAN",
+    "ciudad": "Leon",
+    "promedio": 85,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Linux",
+      "Kubernetes"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Monitor del laboratorio de redes, homelab con Proxmox.",
+    "intereses": "Redes y disponibilidad"
+  },
+  {
+    "id": "app-046",
+    "area": "ux",
+    "nombre": "Camila Jarquin",
+    "carrera": "Arquitectura",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Managua",
+    "promedio": 92,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Figma",
+      "Wireframing"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Identidad de marca completa para un emprendimiento.",
+    "intereses": "Investigacion de usuarios"
+  },
+  {
+    "id": "app-047",
+    "area": "marketing",
+    "nombre": "Hector Solis",
+    "carrera": "Comunicacion",
+    "anio": 4,
+    "universidad": "UPOLI",
+    "ciudad": "Masaya",
+    "promedio": 74,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Redes sociales",
+      "Email marketing",
+      "Fotografia",
+      "SEO",
+      "CSS",
+      "JavaScript"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Maneja el Instagram de un emprendimiento con 12k seguidores.",
+    "intereses": "Campanas pagadas y metricas"
+  },
+  {
+    "id": "app-048",
+    "area": "industrial",
+    "nombre": "Denis Zeledon",
+    "carrera": "Ingenieria en Logistica",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Matagalpa",
+    "promedio": 83,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Gestion de proyectos",
+      "Excel avanzado",
+      "Control de calidad"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Proyecto de reduccion de mermas en una panaderia industrial.",
+    "intereses": "Procesos, logistica"
+  },
+  {
+    "id": "app-049",
+    "area": "qa",
+    "nombre": "Lucia Espinoza",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Esteli",
+    "promedio": 93,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Reporte de bugs",
+      "Casos de prueba",
+      "Testing manual",
+      "Postman"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Probo manualmente la app de un compañero antes de su lanzamiento.",
+    "intereses": "Procesos de release"
+  },
+  {
+    "id": "app-050",
+    "area": "soporte",
+    "nombre": "Sofia Jarquin",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Matagalpa",
+    "promedio": 81,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Atencion al cliente",
+      "Windows",
+      "SQL",
+      "Hardware",
+      "Redes sociales",
+      "Copywriting"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Reparacion y mantenimiento de equipos por cuenta propia.",
+    "intereses": "Soporte y atencion, resolucion de problemas"
+  },
+  {
+    "id": "app-051",
+    "area": "frontend",
+    "nombre": "Andrea Zeledon",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 5,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 90,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "CSS",
+      "TypeScript",
+      "React",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Mantiene el sitio de una ONG local desde hace un año.",
+    "intereses": "Producto y UX de front"
+  },
+  {
+    "id": "app-052",
+    "area": "backend",
+    "nombre": "Hector Guevara",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Leon",
+    "promedio": 87,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Arquitectura de servicios, bases de datos"
+  },
+  {
+    "id": "app-053",
+    "area": "datos",
+    "nombre": "Gabriela Talavera",
+    "carrera": "Economia",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Leon",
+    "promedio": 80,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "SQL",
+      "ETL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Asistente de investigacion limpiando encuestas de campo.",
+    "intereses": "Datos aplicados a operaciones"
+  },
+  {
+    "id": "app-054",
+    "area": "ml",
+    "nombre": "Karla Mendoza",
+    "carrera": "Fisica",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 97,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Python",
+      "MLflow",
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "NLP y lenguaje"
+  },
+  {
+    "id": "app-055",
+    "area": "devops",
+    "nombre": "Marcos Bermudez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 73,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Linux",
+      "CI/CD",
+      "AWS"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Monitor del laboratorio de redes, homelab con Proxmox.",
+    "intereses": "Infraestructura, automatizacion, seguridad"
+  },
+  {
+    "id": "app-056",
+    "area": "ux",
+    "nombre": "Tatiana Somarriba",
+    "carrera": "Arquitectura",
+    "anio": 5,
+    "universidad": "UAM",
+    "ciudad": "Granada",
+    "promedio": 78,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Figma",
+      "Investigacion de usuarios"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Identidad de marca completa para un emprendimiento.",
+    "intereses": "UX de productos financieros, ilustracion"
+  },
+  {
+    "id": "app-057",
+    "area": "marketing",
+    "nombre": "Marcos Mendoza",
+    "carrera": "Publicidad",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Masaya",
+    "promedio": 81,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Canva",
+      "Fotografia",
+      "Email marketing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Blog personal con trafico organico estable.",
+    "intereses": "Comunidad y redes"
+  },
+  {
+    "id": "app-058",
+    "area": "industrial",
+    "nombre": "Ivania Somarriba",
+    "carrera": "Ingenieria Industrial",
+    "anio": 4,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 83,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Control de calidad",
+      "SAP",
+      "Six Sigma",
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Proyecto de reduccion de mermas en una panaderia industrial.",
+    "intereses": "Procesos, logistica"
+  },
+  {
+    "id": "app-059",
+    "area": "qa",
+    "nombre": "Norman Aguilar",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Matagalpa",
+    "promedio": 97,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Casos de prueba",
+      "Automatizacion",
+      "SQL",
+      "Playwright"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Escribio la suite de casos de prueba de un proyecto de curso.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-060",
+    "area": "soporte",
+    "nombre": "Marcos Lopez",
+    "carrera": "Administracion",
+    "anio": 5,
+    "universidad": "UCA",
+    "ciudad": "Leon",
+    "promedio": 85,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Ticketing",
+      "Redes"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Soporte informal a la red de PCs de su facultad.",
+    "intereses": "Servicio al usuario"
+  },
+  {
+    "id": "app-061",
+    "area": "frontend",
+    "nombre": "Carlos Urbina",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UNI",
+    "ciudad": "Esteli",
+    "promedio": 86,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Git",
+      "Next.js",
+      "Tailwind",
+      "Java",
+      "Python"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Mantiene el sitio de una ONG local desde hace un año.",
+    "intereses": "Producto y UX de front"
+  },
+  {
+    "id": "app-062",
+    "area": "backend",
+    "nombre": "Paola Rocha",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UNI",
+    "ciudad": "Managua",
+    "promedio": 80,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Node.js",
+      "SQL",
+      "Git",
+      "Docker",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Backend y rendimiento"
+  },
+  {
+    "id": "app-063",
+    "area": "datos",
+    "nombre": "Fatima Castro",
+    "carrera": "Estadistica",
+    "anio": 5,
+    "universidad": "UAM",
+    "ciudad": "Managua",
+    "promedio": 97,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "SQL",
+      "Airflow",
+      "Estadistica"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Tableros de ventas para una distribuidora regional.",
+    "intereses": "Datos aplicados a operaciones"
+  },
+  {
+    "id": "app-064",
+    "area": "ml",
+    "nombre": "Diego Vanegas",
+    "carrera": "Fisica",
+    "anio": 2,
+    "universidad": "UNAN",
+    "ciudad": "Leon",
+    "promedio": 85,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Python"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Competencias de Kaggle, mejor puesto top 15%.",
+    "intereses": "Modelos predictivos en salud"
+  },
+  {
+    "id": "app-065",
+    "area": "devops",
+    "nombre": "Nathalia Bermudez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "Keiser",
+    "ciudad": "Leon",
+    "promedio": 98,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Bash",
+      "Kubernetes",
+      "Testing manual",
+      "Casos de prueba"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Practica en el NOC de un ISP local.",
+    "intereses": "Automatizacion de despliegues"
+  },
+  {
+    "id": "app-066",
+    "area": "ux",
+    "nombre": "Carlos Aguilar",
+    "carrera": "Arquitectura",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 78,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Design thinking",
+      "Wireframing",
+      "HTML",
+      "Casos de prueba",
+      "Testing manual"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Pruebas de usabilidad para un proyecto de la universidad.",
+    "intereses": "UX de productos financieros, ilustracion"
+  },
+  {
+    "id": "app-067",
+    "area": "marketing",
+    "nombre": "Karla Solis",
+    "carrera": "Comunicacion",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Leon",
+    "promedio": 78,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Redes sociales"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Maneja el Instagram de un emprendimiento con 12k seguidores.",
+    "intereses": "Comunidad y redes"
+  },
+  {
+    "id": "app-068",
+    "area": "industrial",
+    "nombre": "Maria Jose Talavera",
+    "carrera": "Administracion",
+    "anio": 3,
+    "universidad": "UPOLI",
+    "ciudad": "Granada",
+    "promedio": 84,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Excel avanzado",
+      "Gestion de proyectos",
+      "Control de calidad",
+      "AutoCAD",
+      "Six Sigma",
+      "Lean"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Practica corta en control de calidad de una planta de bebidas.",
+    "intereses": "Procesos, logistica"
+  },
+  {
+    "id": "app-069",
+    "area": "qa",
+    "nombre": "Karla Chamorro",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UPOLI",
+    "ciudad": "Esteli",
+    "promedio": 72,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Testing manual",
+      "Casos de prueba",
+      "Automatizacion"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Escribio la suite de casos de prueba de un proyecto de curso.",
+    "intereses": "Procesos de release"
+  },
+  {
+    "id": "app-070",
+    "area": "soporte",
+    "nombre": "Isabel Bermudez",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 2,
+    "universidad": "UPOLI",
+    "ciudad": "Masaya",
+    "promedio": 78,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Atencion al cliente",
+      "Windows",
+      "Ticketing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Reparacion y mantenimiento de equipos por cuenta propia.",
+    "intereses": "Infraestructura de oficina"
+  },
+  {
+    "id": "app-071",
+    "area": "frontend",
+    "nombre": "Carlos Ortiz",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Esteli",
+    "promedio": 94,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "React",
+      "Accesibilidad",
+      "Tailwind"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Portafolio con tres SPAs propias, una con mas de 200 usuarios.",
+    "intereses": "Frontend, accesibilidad, design systems"
+  },
+  {
+    "id": "app-072",
+    "area": "backend",
+    "nombre": "Fatima Palacios",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 4,
+    "universidad": "UCA",
+    "ciudad": "Esteli",
+    "promedio": 75,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "APIs REST",
+      "SQL",
+      "Node.js",
+      "Git",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-073",
+    "area": "datos",
+    "nombre": "Maria Jose Urbina",
+    "carrera": "Estadistica",
+    "anio": 5,
+    "universidad": "UNI",
+    "ciudad": "Esteli",
+    "promedio": 95,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Power BI"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Tableros de ventas para una distribuidora regional.",
+    "intereses": "Reportes de negocio y KPIs"
+  },
+  {
+    "id": "app-074",
+    "area": "ml",
+    "nombre": "Ernesto Ortiz",
+    "carrera": "Matematica",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Leon",
+    "promedio": 76,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Python",
+      "pandas",
+      "Git",
+      "Vue"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "Modelos predictivos en salud"
+  },
+  {
+    "id": "app-075",
+    "area": "devops",
+    "nombre": "Bayardo Castro",
+    "carrera": "Ingenieria en Telecomunicaciones",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Leon",
+    "promedio": 85,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Bash",
+      "Redes",
+      "Docker"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Practica en el NOC de un ISP local.",
+    "intereses": "Automatizacion de despliegues"
+  },
+  {
+    "id": "app-076",
+    "area": "ux",
+    "nombre": "Gabriela Palacios",
+    "carrera": "Arquitectura",
+    "anio": 5,
+    "universidad": "Keiser",
+    "ciudad": "Managua",
+    "promedio": 98,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Design thinking",
+      "Wireframing",
+      "Figma",
+      "Investigacion de usuarios",
+      "Illustrator",
+      "CSS"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Pruebas de usabilidad para un proyecto de la universidad.",
+    "intereses": "UX de productos financieros, ilustracion"
+  },
+  {
+    "id": "app-077",
+    "area": "marketing",
+    "nombre": "Bayardo Palacios",
+    "carrera": "Publicidad",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Granada",
+    "promedio": 93,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Copywriting",
+      "Canva",
+      "Meta Ads",
+      "Google Analytics",
+      "Control de calidad",
+      "Gestion de proyectos"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Maneja el Instagram de un emprendimiento con 12k seguidores.",
+    "intereses": "Campanas pagadas y metricas"
+  },
+  {
+    "id": "app-078",
+    "area": "industrial",
+    "nombre": "Tatiana Mendoza",
+    "carrera": "Ingenieria Industrial",
+    "anio": 3,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 72,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Gestion de proyectos",
+      "AutoCAD",
+      "Lean",
+      "SAP"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Practica corta en control de calidad de una planta de bebidas.",
+    "intereses": "Cadena de suministro"
+  },
+  {
+    "id": "app-079",
+    "area": "qa",
+    "nombre": "Roberto Guevara",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Leon",
+    "promedio": 82,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Reporte de bugs",
+      "Playwright",
+      "SQL",
+      "Postman"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Probo manualmente la app de un compañero antes de su lanzamiento.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-080",
+    "area": "soporte",
+    "nombre": "Jose Luis Castro",
+    "carrera": "Administracion",
+    "anio": 5,
+    "universidad": "UAM",
+    "ciudad": "Matagalpa",
+    "promedio": 93,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Ticketing",
+      "SQL",
+      "Redes"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Soporte informal a la red de PCs de su facultad.",
+    "intereses": "Soporte y atencion, resolucion de problemas"
+  },
+  {
+    "id": "app-081",
+    "area": "frontend",
+    "nombre": "Luis Fernando Chamorro",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 5,
+    "universidad": "UPOLI",
+    "ciudad": "Esteli",
+    "promedio": 97,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Vue",
+      "TypeScript",
+      "Git",
+      "CSS",
+      "HTML",
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "Next.js"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Mantiene el sitio de una ONG local desde hace un año.",
+    "intereses": "Interfaces y rendimiento web"
+  },
+  {
+    "id": "app-082",
+    "area": "backend",
+    "nombre": "Silvio Cruz",
+    "carrera": "Ingenieria en Computacion",
+    "anio": 3,
+    "universidad": "UAM",
+    "ciudad": "Managua",
+    "promedio": 79,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Python",
+      "Git",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Arquitectura de servicios, bases de datos"
+  },
+  {
+    "id": "app-083",
+    "area": "datos",
+    "nombre": "Andrea Talavera",
+    "carrera": "Estadistica",
+    "anio": 3,
+    "universidad": "UNI",
+    "ciudad": "Masaya",
+    "promedio": 78,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "pandas"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Automatizo el reporte mensual de una cooperativa con Python.",
+    "intereses": "Analitica de datos, visualizacion"
+  },
+  {
+    "id": "app-084",
+    "area": "ml",
+    "nombre": "Kevin Jarquin",
+    "carrera": "Matematica",
+    "anio": 4,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 71,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido"
+    ],
+    "skills": [
+      "Python",
+      "pandas",
+      "Estadistica",
+      "scikit-learn"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Tesis sobre series de tiempo aplicadas a salud publica.",
+    "intereses": "NLP y lenguaje"
+  },
+  {
+    "id": "app-085",
+    "area": "devops",
+    "nombre": "Luis Fernando Espinoza",
+    "carrera": "Ingenieria en Telecomunicaciones",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Granada",
+    "promedio": 97,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Bash",
+      "Canva",
+      "Copywriting"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Monitor del laboratorio de redes, homelab con Proxmox.",
+    "intereses": "Automatizacion de despliegues"
+  },
+  {
+    "id": "app-086",
+    "area": "ux",
+    "nombre": "Tatiana Lopez",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UAM",
+    "ciudad": "Managua",
+    "promedio": 73,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Design thinking"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Portafolio con tres redisenos conceptuales de apps locales.",
+    "intereses": "Investigacion de usuarios"
+  },
+  {
+    "id": "app-087",
+    "area": "marketing",
+    "nombre": "Roberto Zeledon",
+    "carrera": "Administracion",
+    "anio": 2,
+    "universidad": "UAM",
+    "ciudad": "Masaya",
+    "promedio": 80,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial",
+      "remoto"
+    ],
+    "skills": [
+      "Redes sociales",
+      "Meta Ads",
+      "Google Analytics",
+      "Fotografia"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Blog personal con trafico organico estable.",
+    "intereses": "Marca personal, contenido"
+  },
+  {
+    "id": "app-088",
+    "area": "industrial",
+    "nombre": "Alejandro Castro",
+    "carrera": "Ingenieria Industrial",
+    "anio": 3,
+    "universidad": "UNAN",
+    "ciudad": "Matagalpa",
+    "promedio": 98,
+    "disponibilidad_horas": 25,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Gestion de proyectos"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Practica corta en control de calidad de una planta de bebidas.",
+    "intereses": "Mejora continua"
+  },
+  {
+    "id": "app-089",
+    "area": "qa",
+    "nombre": "Tatiana Mairena",
+    "carrera": "Ingenieria Industrial",
+    "anio": 4,
+    "universidad": "UNAN",
+    "ciudad": "Matagalpa",
+    "promedio": 93,
+    "disponibilidad_horas": 30,
+    "modalidad_preferida": [
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Reporte de bugs",
+      "Playwright",
+      "Postman"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Escribio la suite de casos de prueba de un proyecto de curso.",
+    "intereses": "Calidad de software, detalle"
+  },
+  {
+    "id": "app-090",
+    "area": "soporte",
+    "nombre": "Jose Luis Mairena",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 3,
+    "universidad": "Keiser",
+    "ciudad": "Leon",
+    "promedio": 97,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Atencion al cliente"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Reparacion y mantenimiento de equipos por cuenta propia.",
+    "intereses": "Soporte y atencion, resolucion de problemas"
+  },
+  {
+    "id": "app-091",
+    "area": "frontend",
+    "nombre": "Norman Baltodano",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UNI",
+    "ciudad": "Leon",
+    "promedio": 77,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "CSS",
+      "React"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Portafolio con tres SPAs propias, una con mas de 200 usuarios.",
+    "intereses": "Producto y UX de front"
+  },
+  {
+    "id": "app-092",
+    "area": "backend",
+    "nombre": "Daniela Chamorro",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 4,
+    "universidad": "UNI",
+    "ciudad": "Matagalpa",
+    "promedio": 82,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "APIs REST",
+      "SQL",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "experiencia": "Bot de Telegram con 1200 usuarios activos.",
+    "intereses": "Sistemas distribuidos"
+  },
+  {
+    "id": "app-093",
+    "area": "datos",
+    "nombre": "Jessica Cruz",
+    "carrera": "Matematica",
+    "anio": 3,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 72,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Power BI",
+      "Python",
+      "Excel avanzado",
+      "SQL",
+      "ETL",
+      "Airflow",
+      "Tableau"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Automatizo el reporte mensual de una cooperativa con Python.",
+    "intereses": "Reportes de negocio y KPIs"
+  },
+  {
+    "id": "app-094",
+    "area": "ml",
+    "nombre": "Manuel Membreño",
+    "carrera": "Fisica",
+    "anio": 4,
+    "universidad": "UPOLI",
+    "ciudad": "Managua",
+    "promedio": 74,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "presencial",
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Estadistica",
+      "scikit-learn",
+      "pandas",
+      "PyTorch"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Clasificador de plagas agricolas para un proyecto de la facultad.",
+    "intereses": "NLP y lenguaje"
+  },
+  {
+    "id": "app-095",
+    "area": "devops",
+    "nombre": "Bayardo Bermudez",
+    "carrera": "Ingenieria en Telecomunicaciones",
+    "anio": 5,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 81,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido"
+    ],
+    "skills": [
+      "Linux",
+      "Terraform",
+      "AWS",
+      "Monitoreo",
+      "Excel avanzado",
+      "Gestion de proyectos"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles C1"
+    ],
+    "experiencia": "Practica en el NOC de un ISP local.",
+    "intereses": "Infraestructura, automatizacion, seguridad"
+  },
+  {
+    "id": "app-096",
+    "area": "ux",
+    "nombre": "Camila Aguilar",
+    "carrera": "Arquitectura",
+    "anio": 5,
+    "universidad": "Keiser",
+    "ciudad": "Managua",
+    "promedio": 98,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Figma"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "experiencia": "Portafolio con tres redisenos conceptuales de apps locales.",
+    "intereses": "Diseno de producto"
+  },
+  {
+    "id": "app-097",
+    "area": "marketing",
+    "nombre": "Carlos Espinoza",
+    "carrera": "Comunicacion",
+    "anio": 2,
+    "universidad": "UCA",
+    "ciudad": "Granada",
+    "promedio": 79,
+    "disponibilidad_horas": 20,
+    "modalidad_preferida": [
+      "remoto",
+      "presencial"
+    ],
+    "skills": [
+      "Redes sociales",
+      "Email marketing",
+      "Meta Ads"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Campanas de Meta Ads con presupuesto propio.",
+    "intereses": "Campanas pagadas y metricas"
+  },
+  {
+    "id": "app-098",
+    "area": "industrial",
+    "nombre": "Wilfredo Bermudez",
+    "carrera": "Ingenieria Industrial",
+    "anio": 4,
+    "universidad": "Keiser",
+    "ciudad": "Granada",
+    "promedio": 92,
+    "disponibilidad_horas": 15,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Excel avanzado",
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "experiencia": "Levantamiento de procesos para una empresa de transporte.",
+    "intereses": "Mejora continua"
+  },
+  {
+    "id": "app-099",
+    "area": "qa",
+    "nombre": "Roberto Talavera",
+    "carrera": "Ingenieria en Sistemas",
+    "anio": 2,
+    "universidad": "UCA",
+    "ciudad": "Managua",
+    "promedio": 71,
+    "disponibilidad_horas": 12,
+    "modalidad_preferida": [
+      "remoto",
+      "hibrido",
+      "presencial"
+    ],
+    "skills": [
+      "Casos de prueba"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Reporto bugs en un proyecto open source local.",
+    "intereses": "Automatizacion de pruebas"
+  },
+  {
+    "id": "app-100",
+    "area": "soporte",
+    "nombre": "Lucia Somarriba",
+    "carrera": "Administracion",
+    "anio": 2,
+    "universidad": "UPOLI",
+    "ciudad": "Leon",
+    "promedio": 68,
+    "disponibilidad_horas": 40,
+    "modalidad_preferida": [
+      "presencial",
+      "hibrido",
+      "remoto"
+    ],
+    "skills": [
+      "Ticketing",
+      "Python",
+      "pandas"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "experiencia": "Mesa de ayuda en el laboratorio de computo.",
+    "intereses": "Servicio al usuario"
+  }
+]

@@ -1,0 +1,16 @@
+import { useEffect, useRef } from 'react';
+import Icon from './Icon';
+import { Avatar, Score, Tags } from './UI';
+import { areaLabels, modalityLabels, getMatch } from '../data';
+export default function DetailModal({ detail, student, saved, onSave, onClose, onSelectStudent }) {
+  const dialog = useRef(null);
+  useEffect(() => {
+    const previousFocus = document.activeElement;
+    dialog.current.showModal();
+    return () => { previousFocus?.focus(); };
+  }, []);
+  const isJob = detail.type === 'job';
+  const item = detail.item;
+  const match = isJob ? getMatch(student, item) : null;
+  return <dialog ref={dialog} className="detail-dialog" aria-labelledby="detail-title" onCancel={onClose} onClick={event => { if (event.target === dialog.current) onClose(); }}><div className="dialog-content"><button className="icon-button modal-close" aria-label="Cerrar detalle" onClick={onClose}><Icon name="close"/></button><Avatar name={isJob ? item.empresa : item.nombre} area={item.area} large/><p className="eyebrow">{isJob ? item.empresa : areaLabels[item.area]}</p><h2 id="detail-title">{isJob ? item.titulo : item.nombre}</h2><p className="muted">{isJob ? `${item.ciudad} · ${modalityLabels[item.modalidad]} · ${item.horas_semana} h/semana · $${item.salario_mensual_usd} USD/mes` : `${item.carrera} · ${item.anio}º año · ${item.universidad}`}</p>{isJob ? <><p>{item.descripcion}</p><h3>Habilidades requeridas</h3><Tags items={item.skills_requeridos} matched={match.common}/><h3>También suma</h3><Tags items={item.skills_deseables}/><div className="match-explanation"><div className="section-heading"><h3>Tu experiencia y esta oportunidad</h3><Score value={match.score}/></div><p>Perfil de {student.nombre}</p><blockquote>{student.experiencia}</blockquote>{match.dimensions.map(d => <div className="dimension" key={d.label}><div><span>{d.label}</span><strong>{Math.round(d.value * 100)}%</strong></div><progress max="100" value={Math.round(d.value * 100)}/></div>)}<p className="small muted">Afinidad ilustrativa: habilidades 55%, área 25%, modalidad 10% y disponibilidad 10%. La experiencia se muestra como referencia, sin análisis automático.</p></div>{match.missing.length > 0 && <><h3>Habilidades por desarrollar</h3><Tags items={match.missing}/></>}<h3>Antes de dar el siguiente paso</h3><p className="small muted">Carreras: {item.carreras.join(', ')}. Desde {item.anio_minimo}º año.</p><ul className="notice-list">{match.notices.map(notice => <li key={notice}>{notice}</li>)}</ul><button className="button primary full" onClick={() => onSave(item.id)}><Icon name="bookmark"/>{saved ? 'Quitar de guardados' : 'Guardar oportunidad'}</button></> : <><div className="profile-facts"><span>{item.ciudad}</span><span>{item.disponibilidad_horas} h disponibles</span><span>Promedio: {item.promedio}</span></div><h3>Experiencia y proyectos</h3><blockquote>{item.experiencia}</blockquote><h3>Habilidades</h3><Tags items={item.skills}/><h3>Intereses</h3><p>{item.intereses}</p><h3>Preferencias e idiomas</h3><p>{item.modalidad_preferida.map(mode => modalityLabels[mode]).join(' · ')}</p><p>{item.idiomas.join(' · ')}</p><button className="button primary full" onClick={() => { onSelectStudent(item.id); onClose(); }}>Ver matching de este estudiante <Icon name="arrow"/></button></>}</div></dialog>;
+}

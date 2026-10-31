@@ -1,0 +1,729 @@
+[
+  {
+    "id": "job-001",
+    "area": "frontend",
+    "titulo": "Practicante React",
+    "empresa": "Logistica Cerro",
+    "modalidad": "hibrido",
+    "ciudad": "Managua",
+    "horas_semana": 20,
+    "salario_mensual_usd": 650,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Vue",
+      "CSS",
+      "Git"
+    ],
+    "skills_deseables": [
+      "Accesibilidad",
+      "Figma"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "descripcion": "Interfaces y rendimiento web. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-002",
+    "area": "backend",
+    "titulo": "Asistente de Plataforma",
+    "empresa": "Nexa Labs",
+    "modalidad": "presencial",
+    "ciudad": "Esteli",
+    "horas_semana": 25,
+    "salario_mensual_usd": 450,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "APIs REST",
+      "Java",
+      "SQL"
+    ],
+    "skills_deseables": [
+      "Docker",
+      "Redis"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Sistemas distribuidos. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-003",
+    "area": "datos",
+    "titulo": "Analista de Datos Junior",
+    "empresa": "Nexa Labs",
+    "modalidad": "hibrido",
+    "ciudad": "Granada",
+    "horas_semana": 20,
+    "salario_mensual_usd": 400,
+    "carreras": [
+      "Estadistica",
+      "Ingenieria Industrial",
+      "Economia",
+      "Matematica"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Power BI",
+      "Excel avanzado",
+      "pandas",
+      "SQL"
+    ],
+    "skills_deseables": [
+      "ETL",
+      "Tableau",
+      "dbt"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Reportes de negocio y KPIs. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-004",
+    "area": "ml",
+    "titulo": "Asistente de Modelos Predictivos",
+    "empresa": "Banco Litoral",
+    "modalidad": "hibrido",
+    "ciudad": "Masaya",
+    "horas_semana": 15,
+    "salario_mensual_usd": 500,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Estadistica",
+      "Matematica",
+      "Fisica"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Estadistica",
+      "pandas",
+      "Python"
+    ],
+    "skills_deseables": [
+      "PyTorch",
+      "SQL",
+      "MLflow"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "descripcion": "NLP y lenguaje. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-005",
+    "area": "devops",
+    "titulo": "Practicante DevOps",
+    "empresa": "Clinica Vida",
+    "modalidad": "hibrido",
+    "ciudad": "Leon",
+    "horas_semana": 15,
+    "salario_mensual_usd": 650,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Telecomunicaciones"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Redes",
+      "Bash",
+      "Docker",
+      "Linux"
+    ],
+    "skills_deseables": [
+      "Terraform",
+      "AWS",
+      "CI/CD"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "descripcion": "Automatizacion de despliegues. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-006",
+    "area": "ux",
+    "titulo": "Practicante de Producto",
+    "empresa": "Banco Litoral",
+    "modalidad": "hibrido",
+    "ciudad": "Leon",
+    "horas_semana": 20,
+    "salario_mensual_usd": 600,
+    "carreras": [
+      "Diseno Grafico",
+      "Ingenieria en Sistemas",
+      "Arquitectura",
+      "Comunicacion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Design thinking",
+      "Wireframing",
+      "Figma"
+    ],
+    "skills_deseables": [
+      "Investigacion de usuarios",
+      "Prototipado",
+      "Illustrator"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Diseno de producto. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-007",
+    "area": "marketing",
+    "titulo": "Practicante de Contenido",
+    "empresa": "Cooperativa La Union",
+    "modalidad": "remoto",
+    "ciudad": "Remoto",
+    "horas_semana": 20,
+    "salario_mensual_usd": 350,
+    "carreras": [
+      "Mercadeo",
+      "Comunicacion",
+      "Publicidad",
+      "Administracion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Redes sociales",
+      "Copywriting",
+      "Canva"
+    ],
+    "skills_deseables": [
+      "Meta Ads",
+      "Google Analytics",
+      "Fotografia"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "descripcion": "Marca personal, contenido. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-008",
+    "area": "industrial",
+    "titulo": "Asistente de Logistica",
+    "empresa": "Logistica Cerro",
+    "modalidad": "presencial",
+    "ciudad": "Leon",
+    "horas_semana": 12,
+    "salario_mensual_usd": 650,
+    "carreras": [
+      "Ingenieria Industrial",
+      "Ingenieria en Logistica",
+      "Administracion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Control de calidad",
+      "Gestion de proyectos",
+      "Excel avanzado"
+    ],
+    "skills_deseables": [
+      "SAP",
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Cadena de suministro. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-009",
+    "area": "qa",
+    "titulo": "Practicante de QA",
+    "empresa": "Cafe Altura",
+    "modalidad": "remoto",
+    "ciudad": "Remoto",
+    "horas_semana": 15,
+    "salario_mensual_usd": 350,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion",
+      "Ingenieria Industrial"
+    ],
+    "anio_minimo": 4,
+    "skills_requeridos": [
+      "Testing manual",
+      "Casos de prueba",
+      "Reporte de bugs"
+    ],
+    "skills_deseables": [
+      "Git",
+      "Postman",
+      "SQL"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "descripcion": "Procesos de release. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-010",
+    "area": "soporte",
+    "titulo": "Pasante de TI",
+    "empresa": "Nexa Labs",
+    "modalidad": "presencial",
+    "ciudad": "Leon",
+    "horas_semana": 12,
+    "salario_mensual_usd": 300,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion",
+      "Administracion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Windows",
+      "Ticketing",
+      "Atencion al cliente"
+    ],
+    "skills_deseables": [
+      "Ingles tecnico",
+      "Hardware"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles A2"
+    ],
+    "descripcion": "Infraestructura de oficina. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-011",
+    "area": "frontend",
+    "titulo": "Pasante Web",
+    "empresa": "Nexa Labs",
+    "modalidad": "remoto",
+    "ciudad": "Remoto",
+    "horas_semana": 20,
+    "salario_mensual_usd": 550,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "HTML",
+      "React",
+      "Vue"
+    ],
+    "skills_deseables": [
+      "Tailwind",
+      "Accesibilidad",
+      "Next.js"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Producto y UX de front. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-012",
+    "area": "backend",
+    "titulo": "Asistente de Plataforma",
+    "empresa": "Banco Litoral",
+    "modalidad": "hibrido",
+    "ciudad": "Granada",
+    "horas_semana": 20,
+    "salario_mensual_usd": 350,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Node.js",
+      "SQL",
+      "Java"
+    ],
+    "skills_deseables": [
+      "Docker",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "descripcion": "Sistemas distribuidos. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-013",
+    "area": "datos",
+    "titulo": "Asistente de Reportes",
+    "empresa": "Seguros Pacifico",
+    "modalidad": "remoto",
+    "ciudad": "Remoto",
+    "horas_semana": 20,
+    "salario_mensual_usd": 750,
+    "carreras": [
+      "Estadistica",
+      "Ingenieria Industrial",
+      "Economia",
+      "Matematica"
+    ],
+    "anio_minimo": 4,
+    "skills_requeridos": [
+      "Excel avanzado",
+      "SQL",
+      "Python"
+    ],
+    "skills_deseables": [
+      "ETL",
+      "Estadistica",
+      "dbt"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "descripcion": "Reportes de negocio y KPIs. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-014",
+    "area": "ml",
+    "titulo": "Practicante de Machine Learning",
+    "empresa": "Logistica Cerro",
+    "modalidad": "hibrido",
+    "ciudad": "Leon",
+    "horas_semana": 20,
+    "salario_mensual_usd": 450,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Estadistica",
+      "Matematica",
+      "Fisica"
+    ],
+    "anio_minimo": 4,
+    "skills_requeridos": [
+      "Estadistica",
+      "scikit-learn",
+      "pandas"
+    ],
+    "skills_deseables": [
+      "NLP",
+      "SQL",
+      "Visualizacion"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B1"
+    ],
+    "descripcion": "Machine learning, investigacion reproducible. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-015",
+    "area": "devops",
+    "titulo": "Practicante DevOps",
+    "empresa": "Cooperativa La Union",
+    "modalidad": "remoto",
+    "ciudad": "Remoto",
+    "horas_semana": 20,
+    "salario_mensual_usd": 300,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Telecomunicaciones"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Redes",
+      "Docker",
+      "Bash",
+      "Linux"
+    ],
+    "skills_deseables": [
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Automatizacion de despliegues. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-016",
+    "area": "ux",
+    "titulo": "Asistente de Investigacion de Usuarios",
+    "empresa": "Cafe Altura",
+    "modalidad": "hibrido",
+    "ciudad": "Managua",
+    "horas_semana": 12,
+    "salario_mensual_usd": 250,
+    "carreras": [
+      "Diseno Grafico",
+      "Ingenieria en Sistemas",
+      "Arquitectura",
+      "Comunicacion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Figma",
+      "Wireframing",
+      "Design thinking"
+    ],
+    "skills_deseables": [
+      "Investigacion de usuarios",
+      "HTML"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Investigacion de usuarios. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-017",
+    "area": "marketing",
+    "titulo": "Practicante de Contenido",
+    "empresa": "Logistica Cerro",
+    "modalidad": "presencial",
+    "ciudad": "Leon",
+    "horas_semana": 30,
+    "salario_mensual_usd": 350,
+    "carreras": [
+      "Mercadeo",
+      "Comunicacion",
+      "Publicidad",
+      "Administracion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Copywriting",
+      "Redes sociales",
+      "Canva"
+    ],
+    "skills_deseables": [
+      "Email marketing",
+      "Meta Ads"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Comunidad y redes. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-018",
+    "area": "industrial",
+    "titulo": "Asistente de Logistica",
+    "empresa": "Clinica Vida",
+    "modalidad": "hibrido",
+    "ciudad": "Granada",
+    "horas_semana": 20,
+    "salario_mensual_usd": 350,
+    "carreras": [
+      "Ingenieria Industrial",
+      "Ingenieria en Logistica",
+      "Administracion"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Gestion de proyectos",
+      "Excel avanzado",
+      "Control de calidad"
+    ],
+    "skills_deseables": [
+      "SAP",
+      "Lean",
+      "AutoCAD"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Mejora continua. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-019",
+    "area": "qa",
+    "titulo": "Asistente de Pruebas",
+    "empresa": "Cooperativa La Union",
+    "modalidad": "presencial",
+    "ciudad": "Esteli",
+    "horas_semana": 20,
+    "salario_mensual_usd": 550,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion",
+      "Ingenieria Industrial"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "Testing manual",
+      "Casos de prueba",
+      "Reporte de bugs"
+    ],
+    "skills_deseables": [
+      "Automatizacion",
+      "Postman",
+      "Playwright"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Procesos de release. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-020",
+    "area": "soporte",
+    "titulo": "Asistente de Mesa de Ayuda",
+    "empresa": "Pesquera Azul",
+    "modalidad": "presencial",
+    "ciudad": "Managua",
+    "horas_semana": 12,
+    "salario_mensual_usd": 250,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion",
+      "Administracion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Ticketing",
+      "Windows",
+      "Atencion al cliente"
+    ],
+    "skills_deseables": [
+      "Redes",
+      "Hardware"
+    ],
+    "idiomas": [
+      "espanol",
+      "ingles B2"
+    ],
+    "descripcion": "Soporte y atencion, resolucion de problemas. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-021",
+    "area": "frontend",
+    "titulo": "Asistente de Interfaces",
+    "empresa": "Agro Norte S.A.",
+    "modalidad": "hibrido",
+    "ciudad": "Granada",
+    "horas_semana": 25,
+    "salario_mensual_usd": 650,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "JavaScript",
+      "HTML",
+      "TypeScript",
+      "React"
+    ],
+    "skills_deseables": [
+      "Next.js",
+      "Figma"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Producto y UX de front. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-022",
+    "area": "backend",
+    "titulo": "Practicante Backend",
+    "empresa": "EduTech Nicaragua",
+    "modalidad": "hibrido",
+    "ciudad": "Granada",
+    "horas_semana": 25,
+    "salario_mensual_usd": 500,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Ingenieria en Computacion"
+    ],
+    "anio_minimo": 2,
+    "skills_requeridos": [
+      "Node.js",
+      "SQL",
+      "APIs REST",
+      "Git"
+    ],
+    "skills_deseables": [
+      "PostgreSQL",
+      "GraphQL",
+      "Testing"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Sistemas distribuidos. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-023",
+    "area": "datos",
+    "titulo": "Practicante de Analitica",
+    "empresa": "Nexa Labs",
+    "modalidad": "presencial",
+    "ciudad": "Matagalpa",
+    "horas_semana": 30,
+    "salario_mensual_usd": 650,
+    "carreras": [
+      "Estadistica",
+      "Ingenieria Industrial",
+      "Economia",
+      "Matematica"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "pandas",
+      "Python",
+      "Power BI",
+      "Excel avanzado",
+      "SQL"
+    ],
+    "skills_deseables": [
+      "Airflow",
+      "dbt"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "Datos aplicados a operaciones. Equipo pequeño, acompañamiento de un tutor asignado."
+  },
+  {
+    "id": "job-024",
+    "area": "ml",
+    "titulo": "Practicante de Machine Learning",
+    "empresa": "Nexa Labs",
+    "modalidad": "hibrido",
+    "ciudad": "Managua",
+    "horas_semana": 20,
+    "salario_mensual_usd": 550,
+    "carreras": [
+      "Ingenieria en Sistemas",
+      "Estadistica",
+      "Matematica",
+      "Fisica"
+    ],
+    "anio_minimo": 3,
+    "skills_requeridos": [
+      "scikit-learn",
+      "Python",
+      "Estadistica"
+    ],
+    "skills_deseables": [
+      "MLflow",
+      "NLP"
+    ],
+    "idiomas": [
+      "espanol"
+    ],
+    "descripcion": "NLP y lenguaje. Equipo pequeño, acompañamiento de un tutor asignado."
+  }
+]

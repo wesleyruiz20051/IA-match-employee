@@ -1,0 +1,12 @@
+{
+  "frontend": "hsl(210 90% 60%)",
+  "backend": "hsl(265 75% 65%)",
+  "datos": "hsl(160 65% 48%)",
+  "ml": "hsl(330 70% 62%)",
+  "devops": "hsl(25 85% 58%)",
+  "ux": "hsl(190 75% 55%)",
+  "marketing": "hsl(45 90% 55%)",
+  "industrial": "hsl(100 45% 52%)",
+  "qa": "hsl(0 0% 62%)",
+  "soporte": "hsl(240 10% 55%)"
+}
